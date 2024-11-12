@@ -1,0 +1,64 @@
+Enunciado/s:
+
+Objetivos de Aprobación Directa (Se necesitan hacer bien y que funcionen todos los puntos
+del parcial anterior, con menú incluido, en está instancia el menú es obligatorio):
+Se debe realizar un video de al menos 10-15 minutos defendiendo el examen, explicando las
+funciones más importantes, no hace falta explicar detenidamente todas las funciones, sino las
+que van a ir llamando en cada opción del menú.
+
+FECHA DE ENTREGA: Hasta el Martes 12 de Noviembre
+
+ATENCIÓN:
+
+No deben usar ningún método de la clase list, cargar la matriz algorítmicamente sin
+usar append usando una carga secuencial.
+
+No usar operadores ternarios, funcion sum(), max() ni nada que no hayamos visto.
+También recomiendo evitar el operador += ya que es lo mismo que un append
+prácticamente.
+
+Recordar modularizar cada función, evitar funciones que hagan varias tareas.
+Pueden usar la función inicializar matriz o cargarla a mano.
+
+El centro de estudiantes de la UTN FRA realiza unas elecciones para definir a su próximo
+presidente/a
+
+Para ello requieren un sistema que logre contar los votos positivos de cada uno de los
+alumnos.
+
+Cada partido político va a guardar lo siguiente (Estructurar la matriz como crean
+conveniente):
+-Nro de lista (número positivo 3 cifras)
+-Cantidad de votos (Turno mañana)
+-Cantidad de votos (Turno tarde)
+-Cantidad de votos (Turno noche)
+
+De las 5 listas politicas que se postularon se requiere lo siguiente:
+
+1. Cargar Votos: Se realiza una carga secuencial de todos los votos de cada una de las
+cinco listas (Debe ser una matriz)
+NOTA: Validar todos los ingresos de datos, evitar votos negativos o nro de lista que no sean
+números de tres cifras.
+
+2. Mostrar Votos: Muestra en un lindo formato los siguientes datos:
+Nro Lista, Votos Turno Mañana,Votos Turno Tarde,Votos Turno Noche,Porcentaje Voto:
+
+3. Ordenar votos turno mañana: Ordena la matriz de mayor a menor por la cantidad de
+votos que tuvieron en el turno mañana.
+
+4. No te votó nadie: Encontrar y mostrar a las listas que tengan menos del 5% de todos
+los votos
+
+5. Turno que más fue a votar: Mostrar cuál fue el turno o los turnos al que más alumnos
+fueron a votar.
+
+6. Ballotage:Verifica si hay segunda vuelta o no, según las reglas estudiantiles la única
+forma de evitar la segunda vuelta es que una lista tenga más del 50% de los votos.
+
+7. Realizar segunda vuelta:Se encarga de realizar la segunda vuelta electoral con los
+dos candidatos más votados. Se le pide al usuario la cantidad de alumnos que fueron
+a votar en cada turno en la segunda vuelta y de manera random se calculan los votos
+del primer y segundo candidato en cada turno. Al final de ello se calcula el porcentaje
+final de cada lista y se muestra al ganador de las elecciones.
+NOTA: Solo se accede si hay la opción 6 verificó que hay segunda vuelta, sino indicar
+que no hubo segunda vuelta.
